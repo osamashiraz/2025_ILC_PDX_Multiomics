@@ -2,7 +2,7 @@
 title: "Champions Oncology ILC PDX Multiomics Dataset Analysis"
 author: "Osama Shiraz Shah"
 date: "`r Sys.Date()`"
-output: html_document
+output: github_document
 editor_options: 
   chunk_output_type: inline
 ---
@@ -26,6 +26,12 @@ Attribution-NonCommercial-NoDerivatives License 4.0 (CC BY-NC-ND).
 ### Data Analysis
 
 #### Setup Environment
+
+```{r}
+knitr::opts_chunk$set(
+  fig.path = "figures/"   # saves all plots to figures/
+)
+```
 
 ```{r}
 
