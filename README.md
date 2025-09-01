@@ -186,10 +186,10 @@ clinical_data$PAM50 = PAM50.subtype$subtype[clinical_data$Model]
 
 ``` r
 # =========================
-# Table S1-style table (clinical + RNA + alterations + mutations)
+# Table S1 table (clinical + RNA + alterations + mutations)
 # =========================
 
-# Putative ILC logic and confirmed labels
+# Confirmed labels based on IHC
 confirmed_ILC   <- c("CTG-2432","CTG-2849","CTG-3283","CTG-3399","CTG-2810","CTG-2611","CTG-2930")
 confirmed_mixed <- c("CTG-3434")
 
